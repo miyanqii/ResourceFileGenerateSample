@@ -11,29 +11,38 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 import java.util.Map;
 
 import rx.Observable;
 
 public class FileConvert {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
+        System.out.println("FileConvert start");
+        // prepare master data
         final String masterText = readAll("app/settings/settings.json");
-        final String templateText = readAll("settings-template/strings-gen.xml.template");
-
+        System.out.println("FileConvert masterText:" + masterText);
         final Settings masterSettings = new Gson().fromJson(masterText, Settings.class);
-
         final Map<String, String> masterSettingsMap = Observable.from(masterSettings.getSettings())
                 .toMap(Setting::getKey, Setting::getValue)
                 .toBlocking()
                 .single();
 
-        final Template template = Mustache.compiler().compile(templateText);
-
-        writeAll(new File("app/src/main/res/values/strings-gen.xml"), template.execute(masterSettingsMap));
-
+        // read templates
+        final File templatesDir = new File("settings-template");
+        List<File> files = new DirectoryReader().readFolder(templatesDir);
+        for (File file : files) {
+            final String filepath = file.getPath();
+            System.out.println("Convert:" + filepath);
+            final String templateText = readAll(filepath);
+            final Template template = Mustache.compiler().compile(templateText);
+            File generated = new File(filepath.replace("settings-template/", "").replace(".template", ""));
+            writeAll(generated, template.execute(masterSettingsMap));
+            System.out.println("Converted:" + generated.getPath());
+        }
         System.out.println("FileConvert Finish");
     }
+
 
     // メソッド定義
     public static String readAll(String path) {
