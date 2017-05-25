@@ -1,0 +1,16 @@
+general:
+  artifacts:
+    - ./app/build/outputs/apk/
+machine:
+  java:
+    version: oraclejdk8
+  environment:
+    ANDROID_HOME: /usr/local/android-sdk-linux
+test:
+  override:
+    - echo "Nothing to do here"
+deployment:
+  upload:
+    branch: [master]
+    commands:
+      - ./gradlew assembleDebug
