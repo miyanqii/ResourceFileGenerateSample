@@ -2,15 +2,15 @@
   "settings": [
     {
       "key": "key1",
-      "value": "VALUE1"
+      "value": "Sitar"
     },
     {
       "key": "key2",
-      "value": "VALUE2"
+      "value": "Tabla"
     },
     {
       "key": "key3",
-      "value": "VALUE3"
+      "value": "Tampoura"
     }
   ]
 }

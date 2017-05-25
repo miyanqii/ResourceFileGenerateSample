@@ -29,10 +29,10 @@ public class FileConvert {
                 .single();
 
         final Template template = Mustache.compiler().compile(templateText);
-        ;
 
         writeAll(new File("app/src/main/res/values/strings-gen.xml"), template.execute(masterSettingsMap));
 
+        System.out.println("FileConvert Finish");
     }
 
     // メソッド定義

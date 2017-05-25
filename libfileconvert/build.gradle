@@ -1,4 +1,18 @@
+apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'java'
+
+jar {
+    manifest {
+        // エントリポイントのクラスを指定する
+        attributes 'Main-Class': "com.example.FileConvert"
+    }
+}
+shadowJar {
+    manifest {
+        // エントリポイントのクラスを指定する
+        attributes 'Main-Class': "com.example.FileConvert"
+    }
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -9,3 +23,4 @@ dependencies {
 
 sourceCompatibility = "1.8"
 targetCompatibility = "1.8"
+
