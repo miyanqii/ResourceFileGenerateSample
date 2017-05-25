@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="value1">{{key1}}</string>
+    <string name="value2">{{key2}}</string>
+    <string name="value3">{{key3}}</string>
+</resources>
