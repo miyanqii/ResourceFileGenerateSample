@@ -2,15 +2,15 @@
   "settings": [
     {
       "key": "colorPrimary",
-      "value": "#3F51B5"
+      "value": "#00BCD4"
     },
     {
       "key": "colorPrimaryDark",
-      "value": "#303F9F"
+      "value": "#0097A7"
     },
     {
       "key": "colorAccent",
-      "value": "#FF4081"
+      "value": "#FF5722"
     },
     {
       "key": "key1",
