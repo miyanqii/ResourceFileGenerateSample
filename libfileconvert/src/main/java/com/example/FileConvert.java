@@ -23,6 +23,7 @@ public class FileConvert {
         final String masterText = readAll("app/settings/settings.json");
         System.out.println("FileConvert masterText:" + masterText);
         final Settings masterSettings = new Gson().fromJson(masterText, Settings.class);
+
         final Map<String, String> masterSettingsMap = Observable.from(masterSettings.getSettings())
                 .toMap(Setting::getKey, Setting::getValue)
                 .toBlocking()

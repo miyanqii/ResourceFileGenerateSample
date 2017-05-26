@@ -1,26 +1,56 @@
 {
   "settings": [
     {
+      "tools-title": "メインカラー",
+      "tools-description": "アプリのメインカラー(NavigationBar/Toolbarの色)を指定してください(#ARGB形式)",
+      "tools-default": "#FFFF0000",
+      "tools-category": "基本設定(配色)",
+
       "key": "colorPrimary",
       "value": "#00BCD4"
     },
     {
+      "tools-title": "メインカラー(ダーク)",
+      "tools-description": "アプリのメインカラー(ダーク)(StatusBarの色)を指定してください(#ARGB形式)",
+      "tools-default": "#FF330000",
+      "tools-category": "基本設定(配色)",
+
       "key": "colorPrimaryDark",
       "value": "#0097A7"
     },
     {
+      "tools-title": "アクセントカラー",
+      "tools-description": "アプリのアクセントカラー(FABやボタン色)を指定してください(#ARGB形式)",
+      "tools-default": "#FF0000FF",
+      "tools-category": "基本設定(配色)",
+
       "key": "colorAccent",
       "value": "#FF5722"
     },
     {
+      "tools-title": "文言1",
+      "tools-description": "TOP画面に表示される文言1を指定してください",
+      "tools-default": "文言1です",
+      "tools-category": "TOP画面-文言",
+
       "key": "key1",
       "value": "AAAA"
     },
     {
+      "tools-title": "文言2",
+      "tools-description": "TOP画面に表示される文言2を指定してください",
+      "tools-default": "文言2です",
+      "tools-category": "TOP画面-文言",
+
       "key": "key2",
       "value": "BBBB"
     },
     {
+      "tools-title": "文言3",
+      "tools-description": "TOP画面に表示される文言3を指定してください",
+      "tools-default": "文言3です",
+      "tools-category": "TOP画面-文言",
+
       "key": "key3",
       "value": "CCCC"
     }
