@@ -14,15 +14,15 @@
     },
     {
       "key": "key1",
-      "value": "ああああ"
+      "value": "AAAA"
     },
     {
       "key": "key2",
-      "value": "いいいい"
+      "value": "BBBB"
     },
     {
       "key": "key3",
-      "value": "うううう"
+      "value": "CCCC"
     }
   ]
 }
