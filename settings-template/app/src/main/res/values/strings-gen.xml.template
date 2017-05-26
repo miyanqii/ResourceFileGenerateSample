@@ -3,4 +3,7 @@
     <string name="value1">{{key1}}</string>
     <string name="value2">{{key2}}</string>
     <string name="value3">{{key3}}</string>
+    <string name="colorPrimaryText">{{colorPrimary}}</string>
+    <string name="colorPrimaryDarkText">{{colorPrimaryDark}}</string>
+    <string name="colorAccentText">{{colorAccent}}</string>
 </resources>

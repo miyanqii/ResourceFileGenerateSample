@@ -15,6 +15,26 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:id="@+id/colorPrimaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colorPrimaryText"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/colorPrimaryDarkText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colorPrimaryDarkText"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/colorAccentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colorAccentText"
+        android:textColor="@color/colorAccent" />
+    <TextView
         android:id="@+id/value1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

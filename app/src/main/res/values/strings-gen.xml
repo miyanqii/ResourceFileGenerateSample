@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="value1">Sitar</string>
-    <string name="value2">Tabla</string>
-    <string name="value3">Tampoura</string>
+    <string name="value1">ああああ</string>
+    <string name="value2">いいいい</string>
+    <string name="value3">うううう</string>
+    <string name="colorPrimaryText">#3F51B5</string>
+    <string name="colorPrimaryDarkText">#303F9F</string>
+    <string name="colorAccentText">#FF4081</string>
 </resources>
 

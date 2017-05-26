@@ -1,16 +1,28 @@
 {
   "settings": [
     {
+      "key": "colorPrimary",
+      "value": "#3F51B5"
+    },
+    {
+      "key": "colorPrimaryDark",
+      "value": "#303F9F"
+    },
+    {
+      "key": "colorAccent",
+      "value": "#FF4081"
+    },
+    {
       "key": "key1",
-      "value": "Red"
+      "value": "ああああ"
     },
     {
       "key": "key2",
-      "value": "Green"
+      "value": "いいいい"
     },
     {
       "key": "key3",
-      "value": "Blue"
+      "value": "うううう"
     }
   ]
 }
