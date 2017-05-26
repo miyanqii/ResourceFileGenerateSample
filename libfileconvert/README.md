@@ -1,3 +1,5 @@
 # How to Build
 at Console
-* ./gradlew distZip
+* ./gradlew shadowJar
+* move ResourceFileGenerateSample/libfileconvert/build/libs/libfileconvert-all.jar
+ to ResourceFileGenerateSample/libfileconvert-all.jar
