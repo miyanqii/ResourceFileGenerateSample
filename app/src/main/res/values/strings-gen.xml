@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="value1">ああああ</string>
-    <string name="value2">いいいい</string>
-    <string name="value3">うううう</string>
-    <string name="colorPrimaryText">#3F51B5</string>
-    <string name="colorPrimaryDarkText">#303F9F</string>
-    <string name="colorAccentText">#FF4081</string>
+    <string name="value1">文言その1</string>
+    <string name="value2">文言その2</string>
+    <string name="value3">文言その3</string>
+    <string name="colorPrimaryText">#00BCD4</string>
+    <string name="colorPrimaryDarkText">#0097A7</string>
+    <string name="colorAccentText">#FF5722</string>
 </resources>
 
