@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="value1">文言その1</string>
-    <string name="value2">文言その2</string>
-    <string name="value3">文言その3</string>
+    <string name="value1">AAAAA</string>
+    <string name="value2">BBBB</string>
+    <string name="value3">CCCCCC</string>
     <string name="colorPrimaryText">#00BCD4</string>
     <string name="colorPrimaryDarkText">#0097A7</string>
     <string name="colorAccentText">#FF5722</string>

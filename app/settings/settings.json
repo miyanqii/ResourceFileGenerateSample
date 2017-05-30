@@ -34,7 +34,7 @@
       "tools-category": "Main画面-文言",
 
       "key": "key1",
-      "value": "文言その1"
+      "value": "AAAAA"
     },
     {
       "tools-title": "文言2",
@@ -43,7 +43,7 @@
       "tools-category": "Main画面-文言",
 
       "key": "key2",
-      "value": "文言その2"
+      "value": "BBBB"
     },
     {
       "tools-title": "文言3",
@@ -52,7 +52,7 @@
       "tools-category": "Main画面-文言",
 
       "key": "key3",
-      "value": "文言その3"
+      "value": "CCCCCC"
     }
   ]
 }
